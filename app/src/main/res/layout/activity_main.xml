@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="auto"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/QuestionNumberStyle"
+                    android:text="@string/number1"
+                    app:fontFamily="serif" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/questionStyle"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginRight="0dp"
+                        android:text="@string/Q1Part1"
+                        app:fontFamily="serif" />
+
+                    <TextView
+                        style="@style/questionStyle"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
+                        android:text="@string/Q1Part2"
+                        android:textColor="@android:color/holo_red_dark"
+                        app:fontFamily="serif" />
+
+                    <TextView
+                        style="@style/questionStyle"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
+                        android:text="@string/Q1Part3"
+                        app:fontFamily="serif" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/radioGroupQ1"
+                style="@style/RadioGroupStyle">
+
+                <RadioButton
+                    android:id="@+id/Q1A1"
+                    style="@style/RadioButtonStyle"
+                    android:focusable="auto"
+                    android:text="@string/Q1A1"
+                    app:fontFamily="serif" />
+
+                <RadioButton
+                    android:id="@+id/Q1A2"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/Q2A2"
+                    app:fontFamily="serif" />
+
+                <RadioButton
+                    android:id="@+id/Q1A3"
+                    style="@style/RadioButtonStyle"
+                    android:focusable="auto"
+                    android:text="@string/Q2A3"
+                    app:fontFamily="serif" />
+
+                <RadioButton
+                    android:id="@+id/Q1A4"
+                    style="@style/RadioButtonStyle"
+                    android:focusable="auto"
+                    android:text="@string/Q4A4"
+                    app:fontFamily="serif" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/QuestionNumberStyle"
+                    android:text="@string/number2"
+                    app:fontFamily="serif" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/questionStyle"
+                        android:text="@string/Q2"
+                        app:fontFamily="serif" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/radioGroupQ2"
+                style="@style/RadioGroupStyle">
+
+                <RadioButton
+                    android:id="@+id/Q2A1"
+                    style="@style/RadioButtonStyle"
+                    android:focusable="auto"
+                    android:text="@string/strTrue"
+                    app:fontFamily="serif" />
+
+                <RadioButton
+                    android:id="@+id/Q2A2"
+                    style="@style/RadioButtonStyle"
+                    android:focusable="auto"
+                    android:text="@string/strFalse"
+                    app:fontFamily="serif" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/QuestionNumberStyle"
+                    android:text="@string/number3"
+                    app:fontFamily="serif" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/questionStyle"
+                        android:text="@string/Q3"
+                        app:fontFamily="serif" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/radioGroupQ3"
+                style="@style/RadioGroupStyle">
+
+                <RadioButton
+                    android:id="@+id/Q3A1"
+                    style="@style/RadioButtonStyle"
+                    android:focusable="auto"
+                    android:text="@string/Q3A1"
+                    app:fontFamily="serif" />
+
+                <RadioButton
+                    android:id="@+id/Q3A2"
+                    style="@style/RadioButtonStyle"
+                    android:focusable="auto"
+                    android:text="@string/Q3A2"
+                    app:fontFamily="serif" />
+
+                <RadioButton
+                    android:id="@+id/Q3A3"
+                    style="@style/RadioButtonStyle"
+                    android:focusable="auto"
+                    android:text="@string/Q3A3"
+                    app:fontFamily="serif" />
+
+                <RadioButton
+                    android:id="@+id/Q3A4"
+                    style="@style/RadioButtonStyle"
+                    android:focusable="auto"
+                    android:text="@string/Q3A4"
+                    app:fontFamily="serif" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/QuestionNumberStyle"
+                    android:text="@string/number4"
+                    app:fontFamily="serif" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/questionStyle"
+                        android:text="@string/Q4"
+                        app:fontFamily="serif" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/radioGroupQ4"
+                style="@style/RadioGroupStyle">
+
+                <RadioButton
+                    android:id="@+id/Q4A1"
+                    style="@style/RadioButtonStyle"
+                    android:focusable="auto"
+                    android:text="@string/strTrue"
+                    app:fontFamily="serif" />
+
+                <RadioButton
+                    android:id="@+id/Q4A2"
+                    style="@style/RadioButtonStyle"
+                    android:focusable="auto"
+                    android:text="@string/strFalse"
+                    app:fontFamily="serif" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/QuestionNumberStyle"
+                    android:text="@string/number5"
+                    app:fontFamily="serif" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/questionStyle"
+                        android:text="@string/Q5"
+                        app:fontFamily="serif" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editTextPercent"
+                style="@style/EditTextQ5"
+                android:focusable="auto"
+                app:fontFamily="serif" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/QuestionNumberStyle"
+                    android:text="@string/number6"
+                    app:fontFamily="serif" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/questionStyle"
+                        android:text="@string/Q6"
+                        app:fontFamily="serif" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/Q6A1"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Q6A1" />
+
+            <CheckBox
+                android:id="@+id/Q6A2"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Q6A2" />
+
+            <CheckBox
+                android:id="@+id/Q6A3"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Q6A3" />
+
+            <Button
+                android:id="@+id/submitButton"
+                style="@style/SubmitButtonStyle"
+                android:onClick="submitButtonClick"
+                android:text="@string/submitButton" />
+
+            <Button
+                android:id="@+id/resetButton"
+                style="@style/SubmitButtonStyle"
+                android:layout_marginTop="0dp"
+                android:onClick="reset"
+                android:text="@string/Reset"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

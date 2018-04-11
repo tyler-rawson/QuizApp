@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Human Facts Quiz</string>
+    <string name="hintExample"><i>20%</i></string>
+    <string name="Q1Part1">The</string>
+    <string name="Q1Part2">\u0020heart\u0020</string>
+    <string name="Q1Part3">beats around ___ times per day.</string>
+    <string name="Q1A1">25,000</string>
+    <string name="Q2A2">45,000</string>
+    <string name="Q2A3">65,000</string>
+    <string name="Q4A4">85,000</string>
+    <string name="Q2">Fingers don’t have muscles that facilitate movement. The tendons in our fingers are moved by the muscles of the forearm</string>
+    <string name="strTrue">True</string>
+    <string name="strFalse">False</string>
+    <string name="Q3">The average adult has ___ miles of blood vessels when placed end to end?</string>
+    <string name="Q3A1">25,000</string>
+    <string name="Q3A2">50,000</string>
+    <string name="Q3A3">75,000</string>
+    <string name="Q3A4">100,000</string>
+    <string name="Q4">The lining in a person\'s stomach is replaced every 4 to 5 days to prevent it from digesting itself.</string>
+    <string name="Q5">A human’s little finger contributes what percent of the hand’s strength? <i>Hint: 10 x 5 = ?</i></string>
+    <string name="Q6">If a human being’s DNA were uncoiled, it would stretch 10 billion miles. This is the same as:</string>
+    <string name="number1">1.\u0020</string>
+    <string name="number2">2.\u0020</string>
+    <string name="number3">3.\u0020</string>
+    <string name="number4">4.\u0020</string>
+    <string name="number5">5.\u0020</string>
+    <string name="number6">6.\u0020</string>
+    <string name="Q6A1">Traveling from Earth to Pluto and back</string>
+    <string name="Q6A2">40,000 trips to the moon</string>
+    <string name="Q6A3">400,000 trips around the earth\'s equator</string>
+    <string name="submitButton">Submit</string>
+    <string name="Reset">Reset</string>
+    <string name="Blank_Q1">Question 1 cannot be blank.</string>
+    <string name="Blank_Q2">Question 2 cannot be blank.</string>
+    <string name="Blank_Q3">Question 3 cannot be blank.</string>
+    <string name="Blank_Q4">Question 4 cannot be blank.</string>
+    <string name="Blank_Q6">Question 5 cannot be blank.</string>
+    <string name="strPerfectYouGot">Perfect! You got\u0020</string>
+    <string name="strGreatJobYouGot">Great job! You got\u0020</string>
+    <string name="str6">6</string>
+    <string name="strCorrect">\u0020correct!</string>
+    <string name="strYouGot">You got\u0020</string>
+    <string name="strForwardSlash">\u0020/\u0020</string>
+    <string name="decimalFormatPattern">#.#</string>
+</resources>
