@@ -5,7 +5,6 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -178,7 +177,6 @@ public class MainActivity extends AppCompatActivity {
         if (checkForBlankQuestions() == 0 && (this.glblDoubleScore > 0)) { // no blank questions with a prior attempt
             calculateScore();
         } else {
-            Log.e("", this.glblDoubleScore + " is: " + glblDoubleScore);
 
             //do nothing if there are blank questions... we don't want a toast saying there's a missed question every time we rotate phone
         }
@@ -403,7 +401,6 @@ public class MainActivity extends AppCompatActivity {
                     Toast.LENGTH_SHORT).show();
         }
         glblDoubleScore = userScore;
-        Log.e("displayScore()", "userScore is: " + userScore + " -- " + "this.glblDoubleScore is: " + glblDoubleScore);
         return userScore;
 
     }
